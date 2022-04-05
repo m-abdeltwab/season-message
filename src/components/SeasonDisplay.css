@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+}
+
+.left {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.right {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.season-display {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winter {
+  background-color: #a0e6ff;
+}
+.summer {
+  background-color: orange;
+}
+
+.winter i {
+  color: #ceeffa;
+}
+.summer i {
+  color: #f3eec3;
+}
